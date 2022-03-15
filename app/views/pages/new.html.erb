@@ -1,0 +1,11 @@
+<h1> Create a New Unit </h1>
+
+    <%= form_with(model: @unit, url: units_path) do |form| %>
+      <%= form.label :title, "Name:" %>
+      <%= form.text_field :title %>
+      <%= form.label :points, "Points" %>
+      <%= form.text_field :title %>
+      <%= form.label :specialabilities, "Special Abilities">
+      <%= form.text_area :title %>
+      <%=form.submit Save Unit %>
+    <% end %>
