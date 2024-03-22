@@ -5,5 +5,6 @@ class SetUpProfile < ActiveRecord::Migration[6.1]
     t.string :points
     t.string :SpecialAbilities
     end
-  end  
+  end
+    
 end
